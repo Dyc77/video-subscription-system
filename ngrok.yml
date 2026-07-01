@@ -1,0 +1,13 @@
+version: "2"
+authtoken: 36uQ59CC9KttD2qUDdxqWJafi81_7BCe8wB5n1YYqc4C9Nh5s
+
+tunnels:
+  frontend:
+    proto: http
+    addr: 3000
+    domain: unobservant-subcalibre-oralia.ngrok-free.dev  # ✅ 前端保留這行
+
+  backend:
+    proto: http
+    addr: 8000
+    # domain: unobservant-subcalibre-oralia.ngrok-free.dev # ❌ 後端這行一定要刪掉或是加 # 註解掉！

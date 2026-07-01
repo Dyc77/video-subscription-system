@@ -1,0 +1,39 @@
+# Node
+node_modules/
+dist/
+/.next
+.env
+
+# --- Python 編譯檔 (一定要忽略) ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# env files
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# --- 作業系統產生的垃圾檔 ---
+.DS_Store
+Thumbs.db
+
+# --- 常見 IDE 設定 (不建議上傳個人的開發環境設定) ---
+.vscode/
+.idea/
+*.swp
+
+# --- Pytest 測試快取 ---
+.pytest_cache/
+
+# --- YouTube Cookies (包含敏感資訊，絕對不能上傳) ---
+backend/cookies.txt
+cookies.txt
+backend/cookies_base64.txt
+cookies_base64.txt
+
+# --- 暫存檔案 ---
+backend/temp/
+temp/
